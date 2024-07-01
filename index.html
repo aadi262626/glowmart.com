@@ -25,17 +25,16 @@
             color: #007bff; /* Blue */
         }
         .video-container {
-            width: 150px; /* Width of the video container */
-            height: 84px; /* Height of the video container (16:9 aspect ratio) */
+            width: 100%; /* Adjust as needed */
+            height: auto; /* Maintain aspect ratio */
             margin: 0 auto 20px auto;
             overflow: hidden;
             border-radius: 8px;
             position: relative;
         }
-        .video-container video {
+        .video-container iframe {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ensure video covers entire container */
         }
         .link-to-external {
             display: inline-block;
@@ -60,16 +59,14 @@
     <div class="container">
         <h1>Welcome to Glowmart Website</h1>
         
-        <!-- Video embed code with autoplay (replace with your video file) -->
+        <!-- Video embed code with autoplay (replace with your video URL) -->
         <div class="video-container">
-            <video autoplay loop muted>
-                <source src="aadi.mp4" type="video/mp4">
-            </video>
+            <iframe src="https://youtube.com/shorts/6BEYydBnVQs?si=Mkh2XxtDsJVYgTdq/embed/YOUR_VIDEO_ID_HERE?autoplay=1" frameborder="0" allowfullscreen></iframe>
         </div>
         
         <!-- Description of the website -->
         <div class="description">
-            <p>Hey, I have added new products in my online shop. Please check out the latest trends in my store and find your favourite products. 👉100% Quality Guarantee 👌 👉100% Satisfaction Guarantee 😊 👉100% Money Back Guarantee on All Returns 😍 🚚FREE Delivery,💵FREE COD. .</p>
+            <p>Hey, I have added new products in my online shop. Please check out the latest trends in my store and find your favourite products. 👉100% Quality Guarantee 👌 👉100% Satisfaction Guarantee 😊 👉100% Money Back Guarantee on All Returns 😍 🚚FREE Delivery,💵FREE COD.</p>
             <p>You can click the button below to visit another website:</p>
         </div>
         
